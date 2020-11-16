@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-dlnjPT ixPweL"
+  >
+    <h2
+      class="sc-hKFyIo eNLwLD"
+      data-testid="headerh2"
+    >
+      Starwars app
+    </h2>
+    <nav
+      class="sc-bdnylx ktEToZ"
+    >
+      <ul
+        class="sc-gtssRu hDxyLK"
+      >
+        <li>
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="/species"
+          >
+            Species
+          </a>
+        </li>
+        <li>
+          <a
+            href="/planets"
+          >
+            Planets
+          </a>
+        </li>
+        <li>
+          <a
+            href="/favorites"
+          >
+            Favorites
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

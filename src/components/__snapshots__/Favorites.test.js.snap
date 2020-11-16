@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <h1
+    data-testid="pageTitle"
+    style="color: white; padding: 30px; grid-row: 1;"
+  >
+    Your Favorites
+  </h1>
+  <div
+    data-testid="favContent"
+    style="display: flex; flex-wrap: wrap;"
+  >
+    <h3>
+       You have no favorites yet.
+    </h3>
+  </div>
+</DocumentFragment>
+`;

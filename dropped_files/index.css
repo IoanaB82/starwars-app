@@ -1,0 +1,40 @@
+:root {
+  --color-dark-brown: #3d3336;
+  --color-dark-blue: #4c596f;
+  --color-light-brown: #ab856e;
+  --color-light-blue-1: #6a8eb9;
+  --color-light-blue-2: #bcc8dd;
+
+  @import url(//db.onlinewebfonts.com/c/c00548f5d217ed324ae9096051927001?family=STARWARS);
+}
+
+body {
+  @font-face {
+    font-family: "STARWARS";
+    src: url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.eot");
+    src: url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/c00548f5d217ed324ae9096051927001.svg#STARWARS")
+        format("svg");
+  }
+
+  box-sizing: content-box;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  font-family: "STARWARS";
+  height: 100vh;
+
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
